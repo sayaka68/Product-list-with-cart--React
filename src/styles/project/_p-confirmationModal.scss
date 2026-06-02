@@ -43,8 +43,8 @@
     display: block;
     width: 48px;
     height: 48px;
-    background: url(/images/icon-order-confirmed.svg) no-repeat center center /
-      contain;
+    background: url(../assets/icons/icon-order-confirmed.svg) no-repeat center
+      center / contain;
   }
   h2 {
     @include global.textPreset1;

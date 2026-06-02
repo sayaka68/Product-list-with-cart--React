@@ -4,6 +4,7 @@ import { products } from "./products.jsx";
 import { Card } from "./Card.jsx";
 import { Cart } from "./Cart.jsx";
 import { ConfirmationModal } from "./confirmationModal";
+import emptyCart from "./assets/images/illustration-empty-cart.svg";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -104,9 +105,7 @@ function App() {
           {cartItems.length === 0 && (
             <>
               <div className="p-cart__emptyPlaceholder">
-                <img
-                  src={`${import.meta.env.BASE_URL}images/illustration-empty-cart.svg`}
-                />
+                <img src={emptyCart} />
                 <p>Your added items will appear here</p>
               </div>
             </>
