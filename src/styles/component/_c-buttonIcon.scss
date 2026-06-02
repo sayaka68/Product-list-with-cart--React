@@ -1,0 +1,25 @@
+@use "../global" as global;
+
+.c-minusIcon {
+  background: url(/images/Subtract-Icon.svg) no-repeat center left / contain;
+  width: 20px;
+
+  &:hover {
+    background-image: url(/images/Subtract-Icon-hover.svg);
+  }
+}
+
+.c-plusIcon {
+  background: url(/images/Add-Icon.svg) no-repeat center right / contain;
+  width: 20px;
+
+  &:hover {
+    background-image: url(/images/Add-Icon-hover.svg);
+  }
+}
+
+.c-minusIcon,
+.c-plusIcon {
+  line-height: 1;
+  cursor: pointer;
+}
