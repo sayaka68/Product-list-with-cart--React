@@ -1,10 +1,7 @@
-# Product-list-with-cart--React
-Frontend Mentorの課題を元に制作したショッピングカートのアプリです。
-
-
 ## 概要
 
-Vanilla JavaScriptで作成したショッピングカートアプリをReactで再実装しました。
+Frontend Mentor の課題を元に制作したショッピングカートアプリです。
+以前にVanilla JavaScriptで作成した同じ課題をReactで再実装しました。
 
 ## 学習内容
 
